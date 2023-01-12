@@ -1,4 +1,4 @@
-<!doctype html><html lang=zh-cn><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta property="og:site_name" content="codeSu Blog"><meta property="og:type" content="article"><meta property="og:image" content="https://blog.selune.top/https://picture.zwc365.com/getbing.jpg"><meta property="twitter:image" content="https://blog.selune.top/https://picture.zwc365.com/getbing.jpg"><meta name=title content="剑指Offer-06.从头到尾打印链表"><meta property="og:title" content="剑指Offer-06.从头到尾打印链表"><meta property="twitter:title" content="剑指Offer-06.从头到尾打印链表"><meta name=description content="输入一个链表的头节点，从尾到头反过来返回每个节点的值"><meta property="og:description" content="输入一个链表的头节点，从尾到头反过来返回每个节点的值"><meta property="twitter:description" content="输入一个链表的头节点，从尾到头反过来返回每个节点的值"><meta property="twitter:card" content="summary"><meta name=keyword content="codeSu, codeSu Blog, 博客, 个人网站, 互联网, Web, Python, Golang, Rust, Kubernetes, 微服务"><link rel="shortcut icon" href=/img/favicon.ico><title>剑指Offer-06.从头到尾打印链表 | codeSu Blog</title><link rel=canonical href=/%E5%89%91%E6%8C%87Offer/06-cong-wei-dao-tou-da-yin-lian-biao-lcof/><link rel=stylesheet href=/css/bootstrap.min.css><link rel=stylesheet href=/css/hugo-theme-cleanwhite.min.css><link rel=stylesheet href=/css/zanshang.css><link href=https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css rel=stylesheet type=text/css><script src=/js/jquery.min.js></script>
+<!doctype html><html lang=zh-cn><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta property="og:site_name" content="codeSu Blog"><meta property="og:type" content="article"><meta property="og:image" content="https://blog.selune.top/https://picture.zwc365.com/getbing.jpg"><meta property="twitter:image" content="https://blog.selune.top/https://picture.zwc365.com/getbing.jpg"><meta name=title content="剑指offer-06.从头到尾打印链表"><meta property="og:title" content="剑指offer-06.从头到尾打印链表"><meta property="twitter:title" content="剑指offer-06.从头到尾打印链表"><meta name=description content="输入一个链表的头节点，从尾到头反过来返回每个节点的值"><meta property="og:description" content="输入一个链表的头节点，从尾到头反过来返回每个节点的值"><meta property="twitter:description" content="输入一个链表的头节点，从尾到头反过来返回每个节点的值"><meta property="twitter:card" content="summary"><meta name=keyword content="codeSu, codeSu Blog, 博客, 个人网站, 互联网, Web, Python, Golang, Rust, Kubernetes, 微服务"><link rel="shortcut icon" href=/img/favicon.ico><title>剑指offer-06.从头到尾打印链表 | codeSu Blog</title><link rel=canonical href=/LeetCode/sword-to-offer-06-cong-wei-dao-tou-da-yin-lian-biao-lcof/><link rel=stylesheet href=/css/bootstrap.min.css><link rel=stylesheet href=/css/hugo-theme-cleanwhite.min.css><link rel=stylesheet href=/css/zanshang.css><link href=https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css rel=stylesheet type=text/css><script src=/js/jquery.min.js></script>
 <script src=/js/bootstrap.min.js></script>
 <script src=/js/hux-blog.min.js></script>
 <script src=/js/lazysizes.min.js></script></head><nav class="navbar navbar-default navbar-custom navbar-fixed-top"><div class=container-fluid><div class="navbar-header page-scroll"><button type=button class=navbar-toggle>
@@ -6,12 +6,12 @@
 <span class=icon-bar></span>
 <span class=icon-bar></span>
 <span class=icon-bar></span></button>
-<a class=navbar-brand href=/>codeSu Blog</a></div><div id=huxblog_navbar><div class=navbar-collapse><ul class="nav navbar-nav navbar-right"><li><a href=/>All Posts</a></li><li><a href=/categories/linux>linux</a></li><li><a href=/categories/%E5%89%91%E6%8C%87offer>剑指offer</a></li><li><a href=/archive/>ARCHIVE</a></li><li><a href=/tags/>TAGS</a></li><li><a href=/about/>ABOUT</a></li></ul></div></div></div></nav><script>var $body=document.body,$toggle=document.querySelector(".navbar-toggle"),$navbar=document.querySelector("#huxblog_navbar"),$collapse=document.querySelector(".navbar-collapse");$toggle.addEventListener("click",handleMagic);function handleMagic(){$navbar.className.indexOf("in")>0?($navbar.className=" ",setTimeout(function(){$navbar.className.indexOf("in")<0&&($collapse.style.height="0px")},400)):($collapse.style.height="auto",$navbar.className+=" in")}</script><style type=text/css>header.intro-header{background-image:url(https://picture.zwc365.com/getbing.jpg)}</style><header class=intro-header><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=post-heading><div class=tags><a class=tag href=/tags/%E5%89%91%E6%8C%87offer title=剑指Offer>剑指Offer</a>
-<a class=tag href=/tags/%E7%AE%97%E6%B3%95 title=算法>算法</a>
+<a class=navbar-brand href=/>codeSu Blog</a></div><div id=huxblog_navbar><div class=navbar-collapse><ul class="nav navbar-nav navbar-right"><li><a href=/>All Posts</a></li><li><a href=/categories/leetcode>leetcode</a></li><li><a href=/categories/linux>linux</a></li><li><a href=/archive/>ARCHIVE</a></li><li><a href=/tags/>TAGS</a></li><li><a href=/about/>ABOUT</a></li></ul></div></div></div></nav><script>var $body=document.body,$toggle=document.querySelector(".navbar-toggle"),$navbar=document.querySelector("#huxblog_navbar"),$collapse=document.querySelector(".navbar-collapse");$toggle.addEventListener("click",handleMagic);function handleMagic(){$navbar.className.indexOf("in")>0?($navbar.className=" ",setTimeout(function(){$navbar.className.indexOf("in")<0&&($collapse.style.height="0px")},400)):($collapse.style.height="auto",$navbar.className+=" in")}</script><style type=text/css>header.intro-header{background-image:url(https://picture.zwc365.com/getbing.jpg)}</style><header class=intro-header><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=post-heading><div class=tags><a class=tag href=/tags/leetcode title=LeetCode>LeetCode</a>
+<a class=tag href=/tags/%E5%89%91%E6%8C%87offer title=剑指offer>剑指offer</a>
 <a class=tag href=/tags/%E6%A0%88 title=栈>栈</a>
 <a class=tag href=/tags/%E9%80%92%E5%BD%92 title=递归>递归</a>
 <a class=tag href=/tags/%E9%93%BE%E8%A1%A8 title=链表>链表</a>
-<a class=tag href=/tags/%E5%8F%8C%E6%8C%87%E9%92%88 title=双指针>双指针</a></div><h1>剑指Offer-06.从头到尾打印链表</h1><h2 class=subheading>从头到尾打印链表</h2><span class=meta>Posted by
+<a class=tag href=/tags/%E5%8F%8C%E6%8C%87%E9%92%88 title=双指针>双指针</a></div><h1>剑指offer-06.从头到尾打印链表</h1><h2 class=subheading>从头到尾打印链表</h2><span class=meta>Posted by
 codeSu
 on
 Wednesday, November 2, 2022</span></div></div></div></div></header><article><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2
@@ -53,8 +53,8 @@ post-container"><h2 id=题目内容>题目内容</h2><p><a href=https://leetcode
 </span></span><span style=display:flex><span>    <span style=color:#6272a4># 递归</span>
 </span></span><span style=display:flex><span>    <span style=color:#ff79c6>def</span> <span style=color:#50fa7b>reversePrint1</span>(self, head: ListNode) <span style=color:#ff79c6>-&gt;</span> List[<span style=color:#8be9fd;font-style:italic>int</span>]:
 </span></span><span style=display:flex><span>        <span style=color:#ff79c6>return</span> self<span style=color:#ff79c6>.</span>reversePrint1(head<span style=color:#ff79c6>.</span>next) <span style=color:#ff79c6>+</span> [head<span style=color:#ff79c6>.</span>val] <span style=color:#ff79c6>if</span> head <span style=color:#ff79c6>else</span> []
-</span></span></code></pre></div><hr><ul class=pager><li class=previous><a href=/%E5%89%91%E6%8C%87Offer/05-ti-huan-kong-ge-lcof/ data-toggle=tooltip data-placement=top title=剑指Offer-05.替换空格>&larr;
-Previous Post</a></li><li class=next><a href=/%E5%89%91%E6%8C%87Offer/06-zhong-jian-er-cha-shu-lcof/ data-toggle=tooltip data-placement=top title=剑指Offer-07.重建二叉树>Next
+</span></span></code></pre></div><hr><ul class=pager><li class=previous><a href=/LeetCode/sword-to-offer-05-ti-huan-kong-ge-lcof/ data-toggle=tooltip data-placement=top title=剑指offer-05.替换空格>&larr;
+Previous Post</a></li><li class=next><a href=/LeetCode/sword-to-offer-06-zhong-jian-er-cha-shu-lcof/ data-toggle=tooltip data-placement=top title=剑指offer-07.重建二叉树>Next
 Post &rarr;</a></li></ul></div><div class="col-lg-2 col-lg-offset-0
 visible-lg-block
 sidebar-container
@@ -62,6 +62,7 @@ catalog-container"><div class=side-catalog><hr class="hidden-sm hidden-xs"><h5><
 col-md-10 col-md-offset-1
 sidebar-container"><section><hr class="hidden-sm hidden-xs"><h5><a href=/tags/>FEATURED TAGS</a></h5><div class=tags><a href=/tags/hello title=hello>hello</a>
 <a href=/tags/iptables title=iptables>iptables</a>
+<a href=/tags/leetcode title=leetcode>leetcode</a>
 <a href=/tags/linux title=linux>linux</a>
 <a href=/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE title=二分查找>二分查找</a>
 <a href=/tags/%E4%BA%8C%E5%8F%89%E6%A0%91 title=二叉树>二叉树</a>
@@ -76,7 +77,6 @@ sidebar-container"><section><hr class="hidden-sm hidden-xs"><h5><a href=/tags/>F
 <a href=/tags/%E6%A0%88 title=栈>栈</a>
 <a href=/tags/%E6%A0%91 title=树>树</a>
 <a href=/tags/%E7%9F%A9%E9%98%B5 title=矩阵>矩阵</a>
-<a href=/tags/%E7%AE%97%E6%B3%95 title=算法>算法</a>
 <a href=/tags/%E8%AE%BE%E8%AE%A1 title=设计>设计</a>
 <a href=/tags/%E9%80%92%E5%BD%92 title=递归>递归</a>
 <a href=/tags/%E9%93%BE%E8%A1%A8 title=链表>链表</a>
