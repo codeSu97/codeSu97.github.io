@@ -11,10 +11,10 @@ codeSu
 on
 Sunday, October 23, 2022</span></div></div></div></div></header><article><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
-post-container"><h2 id=现状>现状</h2><p>某些网站打开，因为当前网络等其他原因，无法正常访问页面，只能显示网站的基本文字，而没有图片，样式等</p><p><img src=/assets/2022/10/23/stackoverflow.png alt=stackoverflow无法显示样式></p><h2 id=产生原因>产生原因</h2><p>当前网站的样式地址、静态文件地址，无法访问，或者不安全被浏览器拦截</p><p><img src=/assets/2022/10/23/unsafe_link.png alt=您的链接不是私密链接></p><h2 id=解决办法>解决办法</h2><ol><li>打开无法正常访问的网站</li><li>F12，打开审查，切换到 <code>Network</code> tab页，刷新页面，会发现很多地址都是显示红色
-<img src=/assets/2022/10/23/not_access.png alt=F12></li><li>选择任意一个红色的无法访问的地址，双击打开，会发现浏览器出现隐私错误提示
-<img src=/assets/2022/10/23/unsafe_link.png alt=您的链接不是私密链接></li><li>高级，仍然访问，(或者直接在当前页面上键盘输入 <code>thisisunsafe</code>)</li><li>当前页面会刷新重新访问，并正常访问</li><li>这时，继续切换到 该网站 的标签页，刷新，会发现当前页面可以正常访问了
-<img src=/assets/2022/10/23/success.png alt=正常访问></li></ol><h2 id=猜测>猜测</h2><p>猜测该类网站无法访问，是因为Chrome不信任这些静态资源地址<code>自签名ssl证书</code>，为了安全起见，直接禁止访问了</p><hr><ul class=pager><li class=previous><a href=/2022/10/12/hello-world/ data-toggle=tooltip data-placement=top title="Welcome to codeSu Blog">&larr;
+post-container"><h2 id=现状>现状</h2><p>某些网站打开，因为当前网络等其他原因，无法正常访问页面，只能显示网站的基本文字，而没有图片，样式等</p><p><img src=/assets/2022/10/23/visiting-the-site-lacks-style/stackoverflow.png alt=stackoverflow无法显示样式></p><h2 id=产生原因>产生原因</h2><p>当前网站的样式地址、静态文件地址，无法访问，或者不安全被浏览器拦截</p><p><img src=/assets/2022/10/23/visiting-the-site-lacks-style/unsafe_link.png alt=您的链接不是私密链接></p><h2 id=解决办法>解决办法</h2><ol><li>打开无法正常访问的网站</li><li>F12，打开审查，切换到 <code>Network</code> tab页，刷新页面，会发现很多地址都是显示红色
+<img src=/assets/2022/10/23/visiting-the-site-lacks-style/not_access.png alt=F12></li><li>选择任意一个红色的无法访问的地址，双击打开，会发现浏览器出现隐私错误提示
+<img src=/assets/2022/10/23/visiting-the-site-lacks-style/unsafe_link.png alt=您的链接不是私密链接></li><li>高级，仍然访问，(或者直接在当前页面上键盘输入 <code>thisisunsafe</code>)</li><li>当前页面会刷新重新访问，并正常访问</li><li>这时，继续切换到 该网站 的标签页，刷新，会发现当前页面可以正常访问了
+<img src=/assets/2022/10/23/visiting-the-site-lacks-style/success.png alt=正常访问></li></ol><h2 id=猜测>猜测</h2><p>猜测该类网站无法访问，是因为Chrome不信任这些静态资源地址<code>自签名ssl证书</code>，为了安全起见，直接禁止访问了</p><hr><ul class=pager><li class=previous><a href=/2022/10/12/hello-world/ data-toggle=tooltip data-placement=top title="Welcome to codeSu Blog">&larr;
 Previous Post</a></li><li class=next><a href=/%E5%89%91%E6%8C%87Offer/03-shu-zu-zhong-zhong-fu-de-shu-zi-lcof/ data-toggle=tooltip data-placement=top title=剑指Offer-03.数组中重复的数字>Next
 Post &rarr;</a></li></ul></div><div class="col-lg-2 col-lg-offset-0
 visible-lg-block
