@@ -2,13 +2,13 @@
 title: "certbot免费申请SSL证书"
 description:
 date: "2023-12-19T20:15:06+08:00"
-url: "/post/certbot免费申请SSL证书/"
-image: "assets/certbot.png"
+slug: "certbot免费申请SSL证书"
+image: "certbot.png"
 math: true
 license: false
 hidden: false
 comments: false
-draft: true
+draft: false
 tags: ["证书"]
 categories: ["证书"]
 ---

@@ -2,19 +2,19 @@
 title: "Git LFS"
 description:
 date: "2023-01-12T15:41:12+08:00"
-url: "/post/git-lfs/"
-image: "assets/git-lfs.gif"
+slug: "git-lfs"
+image: "git-lfs.gif"
 math: true
 license: false
 hidden: false
 comments: false
-draft: true
-tags: ["Git", "Git LFS"]
-categories: ["Git", "Git LFS"]
+draft: false
+tags: ["Git"]
+categories: ["Git"]
 ---
 
 在GitHub或者GitLab提交超过50M的大文件的时候，无法上传
-![git-maximum-file-size](assets/git-maximum-file-size.png)
+![git-maximum-file-size](git-maximum-file-size.png)
 
 ## 什么是Git LFS
 

@@ -2,15 +2,15 @@
 title: "iptables"
 description:
 date: "2022-12-28T21:15:49+08:00"
-url: "/post/iptables/"
-image: "assets/iptables.png"
+slug: "iptables"
+image: "iptables.png"
 math: true
 license: false
 hidden: false
 comments: false
-draft: true
-tags: ["Linux", "iptables", "防火墙"]
-categories: ["Linux", "iptables", "防火墙"]
+draft: false
+tags: ["Linux", "防火墙"]
+categories: ["Linux", "防火墙"]
 ---
 
 ## **iptables 是什么**
