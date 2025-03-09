@@ -1,24 +1,26 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+# [menu]
+# [[menu.main]]
+# name = "首页"
+# url = "/"
+# weight = 1
+# identifier = "home"
+# [menu.main.params]
+# icon = "home"
+# newTab = false
+# [[menu.main]]
+# name = "分类"
+# url = "/categories/"
+# weight = 2
+# identifier = "categories"
+# [menu.main.params]
+# icon = "categories"
+# newTab = false
 
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/codeSu97"
 
 [social.params]
 icon = "brand-github"
-
-[[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
-
-[social.params]
-icon = "brand-twitter"
