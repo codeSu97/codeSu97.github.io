@@ -18,4 +18,4 @@ disqusShortname = "hugo-theme-stack"
 [pagination]
 pagerSize = 5
 
-timeout = 3000
+timeout = 3000000
