@@ -16,8 +16,6 @@ categories: ["证书"]
 
 本质上来说，[certbot](https://github.com/certbot/certbot) 就是一个 ACME client，这也是 [Let’s Encrypt](https://letsencrypt.org/getting-started/) 官网推荐的签发证书的方式，适用于对自己的 domain 具有 shell 访问能力的情况，使用所谓的 ACME 协议来自动化的签发证书，很大程度上简化了证书签发的步骤。
 
-![cerbot](certbot.png)
-
 ## 安装步骤
 
 以`Ubuntu`为例，安装certbot
