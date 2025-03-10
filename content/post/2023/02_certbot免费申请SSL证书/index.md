@@ -3,7 +3,6 @@ title: "certbot免费申请SSL证书"
 description:
 date: "2023-12-19T20:15:06+08:00"
 slug: "certbot免费申请SSL证书"
-image: "certbot.png"
 math: true
 license: false
 hidden: false
@@ -15,7 +14,9 @@ categories: ["证书"]
 
 ## certbot简介
 
-本质上来说，[certbot](https://github.com/certbot/certbot) 就是一个 ACME client，这也是 [Let’s Encrypt](https://letsencrypt.org/getting-started/) 官网推荐的签发证书的方式，适用于对自己的 domain 具有 shell 访问能力的情况，使用所谓的 ACME 协议来自动化的签发证书，很大程度上简化了证书签发的步骤，
+本质上来说，[certbot](https://github.com/certbot/certbot) 就是一个 ACME client，这也是 [Let’s Encrypt](https://letsencrypt.org/getting-started/) 官网推荐的签发证书的方式，适用于对自己的 domain 具有 shell 访问能力的情况，使用所谓的 ACME 协议来自动化的签发证书，很大程度上简化了证书签发的步骤。
+
+![certbot](certbot.png)
 
 ## 安装步骤
 

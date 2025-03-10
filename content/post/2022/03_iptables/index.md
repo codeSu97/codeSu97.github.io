@@ -3,7 +3,6 @@ title: "iptables"
 description:
 date: "2022-12-28T21:15:49+08:00"
 slug: "iptables"
-image: "iptables.png"
 math: true
 license: false
 hidden: false

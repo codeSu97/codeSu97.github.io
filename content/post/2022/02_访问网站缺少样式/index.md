@@ -3,7 +3,6 @@ title: "访问网站缺少样式"
 description:
 date: "2022-10-23T15:14:25+08:00"
 slug: "访问网站缺少样式"
-image: "stackoverflow.png"
 math: true
 license: false
 hidden: false
