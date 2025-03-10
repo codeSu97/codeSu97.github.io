@@ -2,7 +2,7 @@
 title: "Git Lfs"
 description:
 date: "2023-01-12T15:41:12+08:00"
-slug: "git-lfs"
+slug: "gitlfs"
 image: ""
 license: false
 hidden: false

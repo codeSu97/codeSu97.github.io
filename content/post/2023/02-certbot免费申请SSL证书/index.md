@@ -8,7 +8,7 @@ license: false
 hidden: false
 comments: false
 draft: false
-tags: ["证书"]
+tags: ["证书", "Linux"]
 categories: ["证书"]
 ---
 
