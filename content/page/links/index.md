@@ -16,4 +16,5 @@ menu:
 comments: false
 readingTime: false
 license: false
+toc: false
 ---

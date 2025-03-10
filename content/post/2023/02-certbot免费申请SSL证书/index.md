@@ -3,7 +3,7 @@ title: "Certbot免费申请SSL证书"
 description:
 date: "2023-12-19T20:15:06+08:00"
 slug: "Certbot免费申请SSL证书"
-image: ""
+image: "certbot.png"
 license: false
 hidden: false
 comments: false

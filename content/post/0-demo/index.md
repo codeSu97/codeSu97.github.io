@@ -3,7 +3,7 @@ title: "Demo"
 description:
 date: "2022-03-10T11:54:01+08:00"
 slug: "demo"
-image: ""
+image: "cover.jpg"
 license: false
 hidden: false
 comments: false
