@@ -4,7 +4,6 @@ description:
 date: "{{ .Date }}"
 slug: "{{ replace .Name "-" " " | title }}"
 image: ""
-math: true
 license: false
 hidden: false
 comments: false
