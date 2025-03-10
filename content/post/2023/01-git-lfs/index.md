@@ -7,7 +7,7 @@ image: ""
 license: false
 hidden: false
 comments: false
-draft: false
+draft: true
 tags: ["Git"]
 categories: ["Git"]
 ---
